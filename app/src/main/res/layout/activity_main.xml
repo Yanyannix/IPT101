@@ -99,7 +99,7 @@
                 tools:ignore="DuplicateIds" />
 
             <Button
-                android:id="@+id/btnFindJobs"
+                android:id="@+id/btnLogin"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:background="@drawable/input_bg"
@@ -113,16 +113,16 @@
                 app:layout_constraintVertical_bias="0.21" />
 
             <TextView
-                android:id="@+id/Resume"
+                android:id="@+id/createAccount"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="32dp"
                 android:text="Create new account?"
                 android:textColor="@color/white"
                 android:textSize="20sp"
-                app:layout_constraintEnd_toEndOf="@+id/btnFindJobs"
-                app:layout_constraintStart_toStartOf="@+id/btnFindJobs"
-                app:layout_constraintTop_toBottomOf="@+id/btnFindJobs"
+                app:layout_constraintEnd_toEndOf="@+id/btnLogin"
+                app:layout_constraintStart_toStartOf="@+id/btnLogin"
+                app:layout_constraintTop_toBottomOf="@+id/btnLogin"
                 tools:ignore="DuplicateIds,MissingConstraints" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
