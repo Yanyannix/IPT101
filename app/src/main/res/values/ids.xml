@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item name="alreadyHaveAccount" type="id" />
+    <item name="forgetPassword" type="id" />
 </resources>
