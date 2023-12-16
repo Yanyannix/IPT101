@@ -16,8 +16,8 @@ public class MainActivity extends AppCompatActivity {
 
     private Button loginButton;
     private EditText username, password;
-    private String correct_username = "admin";
-    private String correct_password = "admin";
+    private String correct_username = "adrian";
+    private String correct_password = "pogi";
     private TextView createnewaccount;
 
     @Override
